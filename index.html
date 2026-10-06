@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio website" />
+  <title>Your Name | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Your<span>Name</span>.</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
+        🌙
+      </button>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+
+        <div class="hero-text">
+          <p class="eyebrow">HELLO, I'M</p>
+
+          <h1>
+            Your Name
+            <span>Web Developer</span>
+          </h1>
+
+          <p class="hero-description">
+            I create modern, responsive and user-friendly websites
+            using HTML, CSS and JavaScript.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary-btn">
+              View My Work
+            </a>
+
+            <a href="#contact" class="btn secondary-btn">
+              Contact Me
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Twitter">Twitter</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="profile-circle">
+            <span>YN</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Who I Am</h2>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="about-card">
+            <div class="about-icon">👨‍💻</div>
+            <h3>Developer</h3>
+            <p>
+              Passionate about building beautiful and functional
+              websites with clean code.
+            </p>
+          </div>
+
+          <div class="about-content">
+            <p>
+              I'm a passionate web developer who enjoys turning ideas
+              into interactive digital experiences.
+            </p>
+
+            <p>
+              I focus on creating responsive websites that work
+              beautifully across desktops, tablets and mobile devices.
+            </p>
+
+            <div class="about-info">
+              <div>
+                <strong>Name:</strong>
+                <span>Your Name</span>
+              </div>
+
+              <div>
+                <strong>Email:</strong>
+                <span>your@email.com</span>
+              </div>
+
+              <div>
+                <strong>Location:</strong>
+                <span>Your City, India</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">MY SKILLS</p>
+          <h2>What I Work With</h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <div class="skill-top">
+              <span>HTML</span>
+              <span>95%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-top">
+              <span>CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-top">
+              <span>JavaScript</span>
+              <span>85%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-top">
+              <span>Responsive Design</span>
+              <span>90%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">MY WORK</p>
+          <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-image gradient-one">
+              <span>01</span>
+            </div>
+
+            <div class="project-content">
+              <h3>Portfolio Website</h3>
+              <p>
+                A modern responsive portfolio website built using
+                HTML, CSS and JavaScript.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+              </div>
+
+              <a href="#" class="project-link">
+                View Project →
+              </a>
+            </div>
+          </article>
+
+
+          <article class="project-card">
+            <div class="project-image gradient-two">
+              <span>02</span>
+            </div>
+
+            <div class="project-content">
+              <h3>Landing Page</h3>
+              <p>
+                A clean and conversion-focused landing page for
+                a modern business.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+              </div>
+
+              <a href="#" class="project-link">
+                View Project →
+              </a>
+            </div>
+          </article>
+
+
+          <article class="project-card">
+            <div class="project-image gradient-three">
+              <span>03</span>
+            </div>
+
+            <div class="project-content">
+              <h3>Task Manager</h3>
+              <p>
+                A JavaScript task management application with
+                local storage support.
+              </p>
+
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>LocalStorage</span>
+              </div>
+
+              <a href="#" class="project-link">
+                View Project →
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Let's Work Together</h2>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="contact-info">
+            <h3>Have a project in mind?</h3>
+
+            <p>
+              Feel free to contact me if you have a project,
+              question or just want to say hello.
+            </p>
+
+            <div class="contact-item">
+              <span>📧</span>
+              <div>
+                <small>Email</small>
+                <p>your@email.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span>📍</span>
+              <div>
+                <small>Location</small>
+                <p>Your City, India</p>
+              </div>
+            </div>
+
+          </div>
+
+
+          <form class="contact-form" id="contactForm">
+
+            <div class="input-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="your@email.com"
+                required
+              />
+            </div>
+
+            <div class="input-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Tell me about your project..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn primary-btn">
+              Send Message
+            </button>
+
+            <p class="form-message" id="formMessage"></p>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>
+        © <span id="year"></span> Your Name. All rights reserved.
+      </p>
+
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
